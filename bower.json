@@ -12,5 +12,9 @@
     "ember-qunit": "0.2.8",
     "ember-qunit-notifications": "0.0.7",
     "qunit": "~1.17.1"
+  },
+  "devDependencies": {
+    "ember-model": "~0.0.14",
+    "pretender": "0.1.0"
   }
 }

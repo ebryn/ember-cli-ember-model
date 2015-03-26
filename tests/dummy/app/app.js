@@ -13,4 +13,16 @@ var App = Ember.Application.extend({
 
 loadInitializers(App, config.modulePrefix);
 
+function jsonResponse(object, status = 200) {
+  return [200, {'Content-Type': 'application/json'}, JSON.stringify(object)];
+}
+
+new Pretender(function() {
+  this.get('/api/v1/users', function() {
+    return jsonResponse([
+      {id: 1, name: 'Erik'}
+    ]);
+  });
+});
+
 export default App;
