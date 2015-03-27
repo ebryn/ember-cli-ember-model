@@ -1,6 +1,6 @@
 export function initialize(container, application) {
   application.register('adapter:REST', Ember.RESTAdapter);
-  application.register('service:store', Ember.Store);
+  application.register('service:store', Ember.Model.Store);
 }
 
 export default {

@@ -1,6 +1,6 @@
 {
   "name": "ember-model",
-  "version": "0.0.15-alpha",
+  "version": "0.0.15",
   "description": "A lightweight model library for Ember.js",
   "directories": {
     "doc": "doc",
