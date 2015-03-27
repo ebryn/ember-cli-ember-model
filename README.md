@@ -1,25 +1,9 @@
-# Ember-model
+# Ember.Model
 
-This README outlines the details of collaborating on this Ember addon.
+Ember Model (EM) is a simple and lightweight model library for Ember. It intentionally supports a limited feature set. The main goal is to provide primitives on top of $.ajax that are required by Ember.
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+`ember install:addon ember-model`
 
-## Running
-
-* `ember server`
-* Visit your app at http://localhost:4200.
-
-## Running Tests
-
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+For full documentation, please see the [official repo's README.md](https://github.com/ebryn/ember-model#readme)
