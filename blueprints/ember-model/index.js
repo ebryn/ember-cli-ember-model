@@ -10,6 +10,6 @@ module.exports = {
   // }
 
   afterInstall: function(options) {
-    this.addBowerPackageToProject('ember-model');
+    return this.addBowerPackageToProject('ember-model');
   }
 };
